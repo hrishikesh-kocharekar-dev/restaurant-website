@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { featuredProducts } from "../data";
-
+// import { featuredProducts } from "../data";
 
 export default function Featured() {
   return (
