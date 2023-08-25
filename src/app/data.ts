@@ -4,7 +4,6 @@ type Product = {
     desc?: string;
     img?: string;
     price: number;
-    // price?: string;
     options?: { title: string; additionalPrice: number }[];
   };
   
