@@ -9,13 +9,14 @@ export default function Featured() {
       <div className="w-screen overflow-x-scroll text-green-500">
         {/* WRAPPER */}
         <div className="w-max flex">
-          {/* <div className="w-max flex m-auto pb-10"> */}
+          
           {/* SINGLE ITEM */}
           {featuredProducts.map((item) => (
             <div
               key={item.id}
               className="w-screen  h-[80vh] flex flex-col items-center justify-around p-4 hover:bg-green-50 transition-all duration-300 md:w-[50vw] xl:w-[33vw] xl:h-[90vh]"
             >
+
               {/* IMAGE CONTAINER */}
               {item.img && (
                 <div className="relative flex-1 w-full hover:rotate-[50deg] transition-all duration-400">
@@ -34,7 +35,7 @@ export default function Featured() {
                 </h1>
                 <p className="p-4 2xl:p-8">{item.desc}</p>
                 <span className="text-xl font-bold">${item.price}</span>
-                {/* <span className="text-xl font-bold">${item.desc}</span> */}
+               
                 {/* <span className="text-xl font-bold">${item.img}</span> */}
                 <button className="text-white p-2 bg-green-500  rounded-md">
                   Add to Cart
