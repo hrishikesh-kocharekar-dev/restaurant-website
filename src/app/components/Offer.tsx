@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 // import CountDown from "./CountDown";
-// import CountDown from "./CountDown";
+
 
 export default function Offer() {
   return (
