@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-// import CountDown from "./CountDown";
 
 
 export default function Offer() {
@@ -15,7 +14,7 @@ export default function Offer() {
           Progressively simplify effective e-toilers and process-centric methods
           of empowerment. Quickly pontificate parallel.
         </p>
-        {/* <CountDown /> */}
+       
         <button className="bg-green-500 text-white rounded-md py-3 px-6">
           Order Now
         </button>
