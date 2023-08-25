@@ -35,8 +35,6 @@ export default function Featured() {
                 </h1>
                 <p className="p-4 2xl:p-8">{item.desc}</p>
                 <span className="text-xl font-bold">${item.price}</span>
-               
-                {/* <span className="text-xl font-bold">${item.img}</span> */}
                 <button className="text-white p-2 bg-green-500  rounded-md">
                   Add to Cart
                 </button>
