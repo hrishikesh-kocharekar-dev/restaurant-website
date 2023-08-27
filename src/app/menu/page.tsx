@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { menu } from "../data";
-// import { Link } from "../data";
+
 
 export default function MenuPage() {
   return (
@@ -19,8 +19,6 @@ export default function MenuPage() {
           <div className={`text-${category.color} w-1/2`}>
             <h1 className="uppercase text-2xl font-bold">{category.title}</h1>
             <p className="text-sm my-8">{category.desc}</p>
-            {/* <p>{categorcategoryy.img}</p> */}
-            {/* <p>{category.color}</p> */}
             <button
               className={`hidden xl:block bg-${category.color} text-${
                 category.color === "white" ? "white" : "green-500"
