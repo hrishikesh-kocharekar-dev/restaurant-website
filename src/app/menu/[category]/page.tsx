@@ -26,7 +26,7 @@ export default function CategoryPage() {
             <h2 className="group-hover:hidden text-xl">
               ${item.price}
               
-              {/* ${item.img} */}
+
             
             </h2>
             <button className="hidden uppercase text-white p-2 bg-green-500  group-hover:block   rounded-md">
