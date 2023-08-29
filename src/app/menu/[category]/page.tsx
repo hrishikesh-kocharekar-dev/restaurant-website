@@ -25,7 +25,7 @@ export default function CategoryPage() {
             <h1 className="text-xl  p-2 uppercase">{item.title}</h1>
             <h2 className="group-hover:hidden text-xl">
               ${item.price}
-              {/* ${item.desc} */}
+              
               {/* ${item.img} */}
             
             </h2>
