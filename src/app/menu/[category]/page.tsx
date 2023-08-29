@@ -13,7 +13,7 @@ export default function CategoryPage() {
           className="w-full border-b-2 border-green-500 border-r-2 h-[60vh]  sm:w-1/2 lg:w-1/3 p-4 justify-between group flex flex-col"
           href={`/product/${item.id}`}
           key={item.id}
-          // key={item}
+         
         >
           {item.img && (
             <div className="relative h-[80%]">
