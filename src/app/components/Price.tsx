@@ -57,7 +57,7 @@ const Price = ({ price, id, options }: Props) => {
 
             <button
               onClick={() => setQuantity((prev) => (prev < 9 ? prev + 1 : 9))}
-              // onClick={() => setQuantity((prev) => (prev > 9 ? prev - 1 : 9))}
+            
             >
               {">"}
             </button>
