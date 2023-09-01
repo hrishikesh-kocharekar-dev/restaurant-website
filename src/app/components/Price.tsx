@@ -6,8 +6,7 @@ import { isPropertyAccessExpression } from "typescript";
 type Props = {
   price: number;
   id: number;
-  // desc?: string;
-  // img?: string;
+ 
   // price: number;
   options?: { title: string; additionalPrice: number }[];
 };
