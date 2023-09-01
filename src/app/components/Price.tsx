@@ -25,7 +25,7 @@ const Price = ({ price, id, options }: Props) => {
   return (
     <div className="flex flex-col gap-2">
       <h2 className="font-bold text-xl">${total.toFixed(2)}</h2>
-      {/* <h2 className="font-medium text-2xl">${total.toFixed(.1)}</h2> */}
+      
 
       <div className="flex gap-4">
         {options?.map((option, index) => (
