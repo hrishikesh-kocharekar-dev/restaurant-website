@@ -6,8 +6,6 @@ import { isPropertyAccessExpression } from "typescript";
 type Props = {
   price: number;
   id: number;
- 
-  // price: number;
   options?: { title: string; additionalPrice: number }[];
 };
 
@@ -21,7 +19,6 @@ const Price = ({ price, id, options }: Props) => {
   useEffect(() => {
     setTotal(
       quantity * (options ? price + options[selected].additionalPrice : price)
-      // quantity * (options ? options + price)
     );
   }, [quantity, selected, options, price]);
 
