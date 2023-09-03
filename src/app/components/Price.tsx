@@ -9,7 +9,7 @@ type Props = {
   options?: { title: string; additionalPrice: number }[];
 };
 
-// isPropertyAccessExpression
+
 
 const Price = ({ price, id, options }: Props) => {
   const [total, setTotal] = useState(price);
@@ -63,7 +63,7 @@ const Price = ({ price, id, options }: Props) => {
             </button>
           </div>
         </div>
-
+ 
         <button
           className=" ring-1 uppercase w-56 ring-green-500
          text-white p-3  bg-green-500"
