@@ -1,12 +1,6 @@
 import Image from "next/image";
 import React from "react";
 
-// type Props = {
-//   price: number;
-//   id: number;
-//   title: string;
-// };
-
 
 
 const CartPage = () => {
