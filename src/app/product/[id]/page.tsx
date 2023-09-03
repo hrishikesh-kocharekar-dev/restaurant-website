@@ -29,7 +29,7 @@ export default function SingleProduct() {
           id={singleProduct.id}
           options={singleProduct.options}
         />
-        {/* <h1>{singleProduct.desc}</h1> */}
+       
       </div>
     </div>
   );
