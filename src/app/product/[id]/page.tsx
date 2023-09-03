@@ -22,7 +22,7 @@ export default function SingleProduct() {
       )}
       <div className="h-1/2 flex-col gap-4 md:justify-center md-gap-4 xl:gap-6 md:h-[60%] ">
         <h1 className="text-3xl uppercase font-bold ">{singleProduct.title}</h1>
-        {/* <h1>{singleProduct.img}</h1> */}
+      
         <p>{singleProduct.desc}</p>
         <Price
           price={singleProduct.price}
