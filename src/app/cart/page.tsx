@@ -56,7 +56,7 @@ const CartPage = () => {
         <div className="flex justify-between">
           <span className="">Subtotal (3 items)</span>
           <span className="">$71.70</span>  
-          {/* <span className="calc"></span>   */}
+          
         </div>
         <div className="flex justify-between">
           <span className="">Service Cost</span>
