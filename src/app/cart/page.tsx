@@ -12,7 +12,7 @@ import React from "react";
 const CartPage = () => {
   return (
     <div className="h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)] flex flex-col text-green-500 lg:flex-row">
-     {/* // isPropertyAccessExpression */}
+     
       <div
         className="h-1/2 flex-col  overflow-scroll justify-center p-4 flex   
       lg:h-full  2xl:w-1/2 lg:w-2/3  xl:px-40 lg:px-20"
