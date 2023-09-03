@@ -7,7 +7,7 @@ import React from "react";
 //   title: string;
 // };
 
-// import { isPropertyAccessExpression } from "typescript";
+
 
 const CartPage = () => {
   return (
