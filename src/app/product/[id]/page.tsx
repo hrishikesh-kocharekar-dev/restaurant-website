@@ -26,7 +26,7 @@ export default function SingleProduct() {
         <p>{singleProduct.desc}</p>
         <Price
           price={singleProduct.price}
-          id={singleProduct.id}
+          id={singleProduct.id}    
           options={singleProduct.options}
         />
        
@@ -34,3 +34,4 @@ export default function SingleProduct() {
     </div>
   );
 }
+           
