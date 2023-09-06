@@ -16,7 +16,7 @@ export default function OrdersPage() {
         <tbody>
 
 
-          
+
           <tr className="text-sm odd:bg-emerald-100 md:text-base">
             <td className="hidden py-5 px-1 md:block">1234876590</td>
             <td className="py-5 px-1">1.03.2023</td>
@@ -41,13 +41,7 @@ export default function OrdersPage() {
             <td className="py-5 px-1">On the way (approx. 22min)..</td>
           </tr>
 
-          {/* <tr className="text-sm odd:bg-cyan-50 first-letter:md:text-base ">
-            <td className="hidden py-5 px-1 md:block ">1234876590</td>
-            <td className="py-5 px-1">23.05.2023</td>
-            <td className="py-5 px-1">45.55</td>
-            <td className="hidden py-5 px-1 md:block ">Big Burger</td>
-            <td className="py-5 px-1">On the way (approx. 22min)..</td>
-          </tr> */}
+        
 
           {/* <tr className="text-sm odd:bg-cyan-50 first-letter:md:text-base ">
             <td className="hidden py-5 px-1 md:block ">1234876590</td>
