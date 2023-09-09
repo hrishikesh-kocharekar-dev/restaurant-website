@@ -24,7 +24,17 @@ const LoginPage = () => {
               className="object-contain"
             />
         
-      
+        <span>Sign in with Google</span>
+          </button>
+
+          <p className="text-sm mt-4">
+            Have a problem?
+            <Link className="underline" href="/">
+              {/* {" "} */}
+              Contact us
+            </Link>
+          </p>
+        </div>
       </div>
     </div>
   );
