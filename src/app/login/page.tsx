@@ -10,6 +10,20 @@ const LoginPage = () => {
           <Image src="/slide3.jpg" alt="" fill className="object-cover" />
         </div>
 
+        <div className="gap-8 fle p-8 x  md:w-1/2 flex-col ">
+          <h1 className="text-center xl:text-3xl font-bold  xl:text-start text-green-500  text-xl ">
+            Welcome
+          </h1>
+          <p>Log into your account or create a new one using Google</p>
+          <button className="flex gap-4 p-4 ring-1 ring-green-100 rounded-md">
+            <Image
+              src="/google.png"
+              alt=""
+              width={20}
+              height={20}
+              className="object-contain"
+            />
+        
       
       </div>
     </div>
